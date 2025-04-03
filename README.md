@@ -37,6 +37,19 @@ a (semi-)smart ai-driven obby sequence generator for roblox, built with a two-pa
 ## requirements
 - `ReplicatedStorage > Pieces` (folder)
 - `ReplicatedStorage > StopPlatform` (model)
+- plugin (see plugin section)
+
+---
+
+## how to set up the plugin
+- go into roblox studio (duh)
+- make a new script called whatever you want (it doesnt matter), lets call it script_name here
+- paste the contents of `roblox_plugin/ObbyGenerator.lua` into it
+- make a new modulescript in script_name called ObbyImporter
+- paste the contents of `roblox_plugin/ObbyImporter.lua` into it
+- make a new modulescript in script_name called TrainingData
+- paste the contents of `roblox_plugin/TrainingData.lua` into it
+- publish script_name to roblox (save to local file wont work)
 
 ---
 
