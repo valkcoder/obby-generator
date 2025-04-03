@@ -17,7 +17,7 @@ a (semi-)smart ai-driven obby sequence generator for roblox, built with a two-pa
   - `EndPart` → where the next piece connects
 - use the roblox plugin ui to:
   - mark pieces as good starts / ends
-  - mark transitions (A → B) as good combos
+  - mark transitions (a → b) as good combos
   - Export `training_data.json` (as a JSON string)
 
 ---
@@ -28,9 +28,9 @@ a (semi-)smart ai-driven obby sequence generator for roblox, built with a two-pa
 - choose the desired obby length
 - click **Generate Obby**
 - see a table preview of the generated sequence
-- modify individual piece IDs directly
+- modify individual piece ids directly
 - click **Copy Generated Obby JSON**
-- Paste the result back into Roblox to build it
+- paste the result back into roblox to build it
 
 ---
 
