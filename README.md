@@ -42,7 +42,9 @@ a (semi-)smart ai-driven obby sequence generator for roblox, built with a two-pa
 ---
 
 ## how to set up the plugin
-- go into roblox studio (duh)
+
+### method 1
+- go into roblox studio
 - make a new script called whatever you want (it doesnt matter), lets call it script_name here
 - paste the contents of `roblox_plugin/ObbyGenerator.lua` into it
 - make a new modulescript in script_name called ObbyImporter
@@ -50,6 +52,15 @@ a (semi-)smart ai-driven obby sequence generator for roblox, built with a two-pa
 - make a new modulescript in script_name called TrainingData
 - paste the contents of `roblox_plugin/TrainingData.lua` into it
 - publish script_name to roblox (save to local file wont work)
+- install and enable the plugin
+
+### method 2 (for the lazy people)
+- go into roblox studio
+- go to the latest release on the github (github.com/valkcoder/obby-generator/releases)
+- download plugin.rbxm
+- import it into studio
+- publish the script it inserted to roblox
+- install and enable the plugin
 
 ---
 
