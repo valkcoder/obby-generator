@@ -34,6 +34,12 @@ a (semi-)smart ai-driven obby sequence generator for roblox, built with a two-pa
 
 ---
 
+## requirements
+- `ReplicatedStorage > Pieces` (folder)
+- `ReplicatedStorage > StopPlatform` (model)
+
+---
+
 ## example training data
 ```json
 {
